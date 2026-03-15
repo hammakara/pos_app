@@ -1,0 +1,26 @@
+{
+    "version": 2,
+    "framework":null,
+    "functon":{
+        "api/index.php" :{"runtime":"vercel-php@0.6.0"}
+    },
+    "routes":[
+        {"src":"/(.*)","dest":"/api/index.php"}
+    ],
+    "env":{
+
+        "APP_DEBUG":"false",
+        "APP_URL":"",
+       "APP_CONFIG_CACHE":"",
+        "APP_EVENTS_CACHE":"",
+        "APP_PACKAGES_CACHE":"",
+        "APP_ROUTES_CACHE":"",
+        "APP_SEVICES_CACHE":"",
+        "VIEW_COMPILED_PATH":"",
+
+        "CACHE_DRIVER":"",
+        "LOG_CHANNEL":"",
+        "SESSION_DRIVER":""
+
+    }
+}
